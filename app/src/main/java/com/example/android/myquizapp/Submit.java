@@ -36,27 +36,27 @@ public class Submit extends AppCompatActivity {
         Button btn1 = (Button) findViewById(R.id.share_button);
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                share();
+                share(v);
             }
         });
         Button btn2 = (Button) findViewById(R.id.try_button);
         btn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                trya();
+                trya(v);
             }
         });
         Button btn3 = (Button) findViewById(R.id.learn_button);
         btn3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 {
-                    learn();
+                    learn (v);
                 }
             }
         });
 
     }
 
-    public void share() {
+    public void share(View v) {
         String message = "I got " + score + " scores in awesome CancerQuiz";
         Intent share = new Intent(Intent.ACTION_SEND);
         share.setType("text/plain");
@@ -64,14 +64,15 @@ public class Submit extends AppCompatActivity {
         startActivity(Intent.createChooser(share, "My results"));
     }
 
-    public void trya() {
+    public void trya(View v) {
         Intent myIntent2 = new Intent(Submit.this, MainActivity.class);
         startActivity(myIntent2);
     }
 
-    public void learn() {
+    public void learn(View v) {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.cancer.gov"));
         startActivity(browserIntent);
+
     }
 
 
