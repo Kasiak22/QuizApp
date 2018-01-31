@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#b2bed4"
+        android:background="@color/back"
         android:orientation="vertical"
         tools:context=".Quiz2Activity">
 
@@ -39,7 +39,7 @@
                 android:layout_marginLeft="@dimen/s_margin"
                 android:text="@string/an3a"
                 android:textAppearance="?android:textAppearanceMedium"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatCheckBox
                 android:id="@+id/b3_checkbox"
@@ -48,7 +48,7 @@
                 android:layout_marginLeft="@dimen/s_margin"
                 android:text="@string/an3b"
                 android:textAppearance="?android:textAppearanceMedium"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatCheckBox
                 android:id="@+id/c3_checkbox"
@@ -57,7 +57,7 @@
                 android:layout_marginLeft="@dimen/s_margin"
                 android:text="@string/an3c"
                 android:textAppearance="?android:textAppearanceMedium"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatCheckBox
                 android:id="@+id/d3_checkbox"
@@ -66,7 +66,7 @@
                 android:layout_marginLeft="@dimen/s_margin"
                 android:text="@string/an3d"
                 android:textAppearance="?android:textAppearanceMedium"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
         </LinearLayout>
 
         <TextView
@@ -83,7 +83,7 @@
             android:layout_marginLeft="@dimen/s_margin"
             android:text="@string/an4a"
             android:textAppearance="?android:textAppearanceMedium"
-            app:buttonTint="#0c6ba6" />
+            app:buttonTint="@color/basic" />
 
         <android.support.v7.widget.AppCompatCheckBox
             android:id="@+id/b4_checkbox"
@@ -92,7 +92,7 @@
             android:layout_marginLeft="@dimen/s_margin"
             android:text="@string/an4b"
             android:textAppearance="?android:textAppearanceMedium"
-            app:buttonTint="#0c6ba6" />
+            app:buttonTint="@color/basic" />
 
         <android.support.v7.widget.AppCompatCheckBox
             android:id="@+id/c4_checkbox"
@@ -101,7 +101,7 @@
             android:layout_marginLeft="@dimen/s_margin"
             android:text="@string/an4c"
             android:textAppearance="?android:textAppearanceMedium"
-            app:buttonTint="#0c6ba6" />
+            app:buttonTint="@color/basic" />
 
         <android.support.v7.widget.AppCompatCheckBox
             android:id="@+id/d4_checkbox"
@@ -110,7 +110,7 @@
             android:layout_marginLeft="@dimen/s_margin"
             android:text="@string/an4d"
             android:textAppearance="?android:textAppearanceMedium"
-            app:buttonTint="#0c6ba6" />
+            app:buttonTint="@color/basic" />
 
         <TextView
             style="@style/quest"

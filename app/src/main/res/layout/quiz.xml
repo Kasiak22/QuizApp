@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#b2bed4"
+        android:background="@color/back"
         android:orientation="vertical"
         tools:context=".QuizActivity">
 
@@ -32,8 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp">
+            android:layout_marginLeft="@dimen/s_margin"
+            android:layout_marginStart="@dimen/s_margin">
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/a1_radio_button"
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/an1a"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/b1_radio_button"
@@ -49,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/an1b"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/c1_radio_button"
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/an1c"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/d1_radio_button"
@@ -65,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/an1d"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
         </RadioGroup>
 
         <TextView
@@ -79,8 +79,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp">
+            android:layout_marginLeft="@dimen/s_margin"
+            android:layout_marginStart="@dimen/s_margin">
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/a2_radio_button"
@@ -88,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/an2a"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/b2_radio_button"
@@ -96,7 +96,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/an2b"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/c2_radio_button"
@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/an2c"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/d2_radio_button"
@@ -112,7 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/an2d"
-                app:buttonTint="#0c6ba6" />
+                app:buttonTint="@color/basic" />
 
         </RadioGroup>
 
@@ -121,8 +121,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/s_margin"
+            android:layout_marginTop="@dimen/m_margin"
             android:background="@drawable/button_shape"
             android:onClick="move"
             android:text="@string/nx" />
