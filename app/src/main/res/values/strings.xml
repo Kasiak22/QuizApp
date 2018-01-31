@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name" translatable="false">MyQuizApp</string>
+    <string name="title1">Cancer quiz</string>
+    <string name="title_q">Find out what you know about it!</string>
+    <string name="hint">Answer</string>
+    <string name="sum_mes" translatable="false">message</string>
+    <!-- question 1 -->
+    <string name="q1">1. What is the most common cause of cancer</string>
+    <string name="an1a">stress</string>
+    <string name="an1b">smoking</string>
+    <string name="an1c">obesity</string>
+    <string name="an1d">alcohol</string>
+
+    <!-- question 2 -->
+    <string name="q2">2. PSA factor allows to detect</string>
+    <string name="an2a">pancreatic cancer</string>
+    <string name="an2b">prostate cancer</string>
+    <string name="an2c">melanoma</string>
+    <string name="an2d">lung cancer</string>
+
+    <!-- question 3 -->
+    <string name="q3">3. Which viruses can cause cancer</string>
+    <string name="an3a">Human papilloma viruses (HPVs)</string>
+    <string name="an3b">Influenzavirus A</string>
+    <string name="an3c">Hepatitis C virus</string>
+    <string name="an3d"> Herpes virus varicella</string>
+
+    <!-- question 4 -->
+    <string name="q4">4. Which imaging methods are dedicated for cancer detection</string>
+    <string name="an4a">Colonoscopy</string>
+    <string name="an4b">Mammography</string>
+    <string name="an4c">Computed tomography (CT)</string>
+    <string name="an4d">Electrocardiography</string>
+
+    <!-- question 5 -->
+    <string name="q5">5. Which type of cancer is the most common among women?</string>
+    <string name="title_activity_quiz2" translatable="false">quiz2</string>
+
+    <!--buttons-->
+    <string name="nx">next</string>
+    <string name="sub">submit</string>
+    <string name="let">Let\'s start</string>
+    <string name="sh">share</string>
+    <string name="trya">try again</string>
+    <string name="learn">learn sth more</string>
+
+    <!--java -->
+    <string name="ans">Answer all questions!!</string>
+    <string name="ans_ed">Breast cancer</string>
+    <string name="mes_p1">Score: </string>
+    <string name="mes_p2a">"  is not enough. Improve!"</string>
+    <string name="mes_p2b">"  You're almost there"</string>
+    <string name="mes_p2c">"  Great job!"</string>
+
+
+</resources>

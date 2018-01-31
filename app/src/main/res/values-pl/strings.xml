@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="q4">4.Które metody obrazowe służą do wykrywania raka?</string>
+    <string name="q5">5.Który typ raka jest najczęstszy u kobiet?</string>
+    <string name="an1d">Alkohol</string>
+    <string name="ans">Odpowiedz na wszystkie pytania!</string>
+    <string name="an4a">Kolonoskopia</string>
+    <string name="an4c">Tomografia komputerowa</string>
+    <string name="an4d">Elektrokardiografia EKG</string>
+    <string name="title_q">Sprawdź ile wiesz na ten temat!</string>
+    <string name="an2d">Rak płuc</string>
+    <string name="an4b">Mammografia</string>
+    <string name="an2c">Czerniak</string>
+    <string name="an1c">Otyłość</string>
+    <string name="an2a">Rak trzustki</string>
+    <string name="an2b">Rak prostaty</string>
+    <string name="an1b">Palenie</string>
+    <string name="an1a">Stres</string>
+    <string name="q1">1.Jaka jest najczęstsza przyczyna raka?</string>
+    <string name="q2">2. Czynnik PSA pozwala wykryć który nowotwór?</string>
+    <string name="q3">3. Które z wirusów mogą powodować raka</string>
+    <string name="an3c">Wirus zapalenia wątroby typu C</string>
+    <string name="an3d">Wirus ospy wietrznej</string>
+    <string name="an3b">Wirus grypy typu A</string>
+    <string name="an3a">Wirus brodawczaka ludzkiego HPV</string>
+    <string name="nx">Następny</string>
+    <string name="sub">Wyślij</string>
+    <string name="let">Zaczynajmy!</string>
+    <string name="sh">Podziel się</string>
+    <string name="trya">Jeszcze raz</string>
+    <string name="learn">Dowiedz się więcej</string>
+    <string name="ans_ed">Rak piersi</string>
+    <string name="hint">Odpowiedź</string>
+    <string name="title1" translatable="false">Quiz o raku</string>
+    <string name="mes_p1">Wynik:</string>
+    <string name="mes_p2a">" Za mało! Popraw się!"</string>
+    <string name="mes_p2b">" Mało brakowało!"</string>
+    <string name="mes_p2c">" Doskonale!"</string>
+</resources>

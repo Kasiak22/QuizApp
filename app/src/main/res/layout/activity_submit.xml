@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b2bed4"
+        android:orientation="vertical"
+        tools:context=".Submit">
+
+        <ImageView
+            android:id="@+id/lung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/indeks" />
+
+        <TextView
+            android:id="@+id/summary"
+            style="@style/quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/xl_margin"
+            android:layout_marginTop="@dimen/xl_margin"
+            android:text="@string/sum_mes"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sub_button"
+                android:onClick="share"
+                android:text="@string/sh" />
+
+            <Button
+                android:id="@+id/try_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sub_button"
+                android:onClick="trya"
+                android:text="@string/trya" />
+
+            <Button
+                android:id="@+id/learn_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sub_button"
+                android:layout_marginRight="@dimen/m_margin"
+                android:onClick="learn"
+                android:text="@string/learn" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
