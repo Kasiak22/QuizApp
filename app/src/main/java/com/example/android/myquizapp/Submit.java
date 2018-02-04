@@ -1,6 +1,7 @@
 package com.example.android.myquizapp;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,13 +22,14 @@ public class Submit extends AppCompatActivity {
         score = bundle.getInt("score");
 
         if (score <= 2) {
-            message = getResources().getString(R.string.mes_p1) + score + getResources().getString(R.string.mes_p2a);
+            message = String.format(getString(R.string.mes_p2a), score);
         }
         if (score > 2 && score <= 4) {
-            message = getResources().getString(R.string.mes_p1) + score + getResources().getString(R.string.mes_p2b);
+            message = String.format(getString(R.string.mes_p2b),score  );
         }
         if (score == 5) {
-            message = getResources().getString(R.string.mes_p1) + score + getResources().getString(R.string.mes_p2c);
+              message = String.format(getString(R.string.mes_p2c), score  );
+
         }
 
         TextView orderSummaryTextView = findViewById(R.id.summary);
@@ -57,11 +59,11 @@ public class Submit extends AppCompatActivity {
     }
 
     public void share(View v) {
-        String message = "I got " + score + " scores in awesome CancerQuiz";
+        String message = String.format(getString(R.string.mail),score);
         Intent share = new Intent(Intent.ACTION_SEND);
         share.setType("text/plain");
         share.putExtra(Intent.EXTRA_TEXT, message);
-        startActivity(Intent.createChooser(share, "My results"));
+        startActivity(Intent.createChooser(share, getString(R.string.mail_title)));
     }
 
     public void trya(View v) {
