@@ -12,7 +12,7 @@
     <string name="an1d">alcohol</string>
 
     <!-- question 2 -->
-    <string name="q2">2. PSA factor allows to detect</string>
+    <string name="q2" translatable="false">2. PSA factor allows to detect</string>
     <string name="an2a">pancreatic cancer</string>
     <string name="an2b">prostate cancer</string>
     <string name="an2c">melanoma</string>
@@ -47,10 +47,10 @@
     <!--java -->
     <string name="ans">Answer all questions!!</string>
     <string name="ans_ed">Breast cancer</string>
-    <string name="mes_p1">Score: </string>
-    <string name="mes_p2a">"  is not enough. Improve!"</string>
-    <string name="mes_p2b">"  You're almost there"</string>
-    <string name="mes_p2c">"  Great job!"</string>
-
+    <string name="mes_p2a">Score: %d is not enough. Improve!</string>
+    <string name="mes_p2b">Score: %d You\'re almost there</string>
+    <string name="mes_p2c">  Score: %d Great job</string>
+    <string name="mail">I got %d scores in awesome CancerQuiz</string>
+    <string name="mail_title">My results</string>
 
 </resources>

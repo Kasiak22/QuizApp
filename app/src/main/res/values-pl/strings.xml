@@ -31,9 +31,11 @@
     <string name="learn">Dowiedz się więcej</string>
     <string name="ans_ed">Rak piersi</string>
     <string name="hint">Odpowiedź</string>
-    <string name="title1" translatable="false">Quiz o raku</string>
+    <string name="title1" translatable="false">Quiz o nowotworach</string>
     <string name="mes_p1">Wynik:</string>
-    <string name="mes_p2a">" Za mało! Popraw się!"</string>
-    <string name="mes_p2b">" Mało brakowało!"</string>
-    <string name="mes_p2c">" Doskonale!"</string>
+    <string name="mes_p2a">" Wynik: %d Za mało! Popraw się!"</string>
+    <string name="mes_p2b">" Wynik: %d Mało brakowało!"</string>
+    <string name="mes_p2c">" Wynik: %d Doskonale!"</string>
+    <string name="mail_title">Mój wynik</string>
+    <string name="mail">Mój wynik to: %d w super quizie o nowotworach.</string>
 </resources>
