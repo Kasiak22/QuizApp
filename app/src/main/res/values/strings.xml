@@ -12,7 +12,7 @@
     <string name="an1d">alcohol</string>
 
     <!-- question 2 -->
-    <string name="q2" translatable="false">2. PSA factor allows to detect</string>
+    <string name="q2">2. PSA factor allows to detect</string>
     <string name="an2a">pancreatic cancer</string>
     <string name="an2b">prostate cancer</string>
     <string name="an2c">melanoma</string>
@@ -42,15 +42,24 @@
     <string name="let">Let\'s start</string>
     <string name="sh">share</string>
     <string name="trya">try again</string>
-    <string name="learn">learn sth more</string>
+    <string name="learn">learn </string>
 
     <!--java -->
     <string name="ans">Answer all questions!!</string>
     <string name="ans_ed">Breast cancer</string>
     <string name="mes_p2a">Score: %d is not enough. Improve!</string>
     <string name="mes_p2b">Score: %d You\'re almost there</string>
-    <string name="mes_p2c">  Score: %d Great job</string>
+    <string name="mes_p2c">"  Score: %d Great job !"</string>
     <string name="mail">I got %d scores in awesome CancerQuiz</string>
     <string name="mail_title">My results</string>
+
+    <!--answers -->
+    <string name="ans1">Answer 1. Smoking. Smoking accounts for more than 1 in 4 UK cancer deaths, and nearly a fifth of all cancer cases.</string>
+    <string name="ans2">Answer 2. Prostate cancer. PSA is a protein produced by normal cells in the prostate and also by prostate cancer cells.</string>
+    <string name="ans3">Answer 3. Human papilloma viruses (HPVs) and Hepatitis C virus. HPV is responsible for developing cerevical and also anal cancer. Hepatocellular carcinoma (HCC) is the fifth most common cancer, a major cause of death in patients with chronic hepatitis C virus infection.</string>
+    <string name="ans4">Answer 4. Colonoscopy, mammography, CT. Colonoscopy for colorectal caner, mammography for breast cancer. CT allows to diagnose various types of cancer.</string>
+    <string name="ans5">Answer 5. Breast caner. Breast cancer is a common cancer in women, but screening and therapy now make it treatable in many cases.</string>
+    <string name="ans_b">Back to results</string>
+    <string name="bu_s">Answers</string>
 
 </resources>

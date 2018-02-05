@@ -38,4 +38,11 @@
     <string name="mes_p2c">" Wynik: %d Doskonale!"</string>
     <string name="mail_title">Mój wynik</string>
     <string name="mail">Mój wynik to: %d w super quizie o nowotworach.</string>
+    <string name="ans2">Odpowiedź 2. Rak prostaty. PSA jest białkiem produkowanym przez komórki prostaty i komórki nowotworowe.</string>
+    <string name="ans1">Odpowiedź 1. Palenie. Szacuje się, że palenie tytoniu odpowiada za blisko 30% wszystkich zgonów spowodowanych nowotworami.</string>
+    <string name="ans3">Odpowiedź 3. Wirus brodawczaka ludzkiego HPV, wirus zapalenia wątroby typu C. HPV jest odpowiedzialny za rozwój raka szyjki macicy.Rak wątrobowokomórkowy (HCC) jest piątym najczęściej występującym nowotworem, który jest główną przyczyną śmierci pacjentów z przewlekłym zakażeniem wirusem zapalenia wątroby typu C.</string>
+    <string name="ans4">Odpowiedź 4. Kolonoskopia, mammografia, CT. Kolonoskopia - rak jelita grubego, mammografia - rak piersi. CT pozwala diagnozować różne typy raka.</string>
+    <string name="ans5">Odpowiedź 5. Rak piersi. Rak piersi jest częstym rakiem u kobiet, ale badania przesiewowe i terapia sprawiają, że w wielu przypadkach można go leczyć</string>
+    <string name="ans_b">"Powrót "</string>
+    <string name="bu_s">Odpowiedzi</string>
 </resources>

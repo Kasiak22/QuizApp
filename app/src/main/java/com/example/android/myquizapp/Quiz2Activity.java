@@ -75,6 +75,7 @@ public class Quiz2Activity extends AppCompatActivity {
             Intent myIntent2 = new Intent(Quiz2Activity.this, Submit.class);
             myIntent2.putExtra("score", score);
             startActivity(myIntent2);
+            finish();
 
 
         }

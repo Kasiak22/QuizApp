@@ -34,6 +34,16 @@
         <item name="android:background">@drawable/button_shape</item>
     </style>
 
+    <style name="Answers">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/m_margin</item>
+        <item name="android:layout_marginLeft">@dimen/s_margin</item>
+        <item name="android:layout_marginRight">@dimen/s_margin</item>
+        <item name="android:layout_marginTop">@dimen/m_margin</item>
+        <item name="android:textColor">@color/basic</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 
 
 
