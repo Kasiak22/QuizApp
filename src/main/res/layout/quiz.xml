@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:orientation="vertical"
+        tools:context=".QuizActivity">
+
+
+        <ImageView
+            android:id="@+id/lung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cancer_bb" />
+
+        <TextView
+            style="@style/quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"/>
+
+        <RadioGroup
+            android:id="@+id/quest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/s_margin"
+            android:layout_marginStart="@dimen/s_margin">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/a1_radio_button"
+                style="@style/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an1a"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/b1_radio_button"
+                style="@style/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an1b"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/c1_radio_button"
+                style="@style/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an1c"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/d1_radio_button"
+                style="@style/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an1d"
+                app:buttonTint="@color/basic" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2" />
+
+        <RadioGroup
+            android:id="@+id/quest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/s_margin"
+            android:layout_marginStart="@dimen/s_margin">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/a2_radio_button"
+                style="@style/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an2a"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/b2_radio_button"
+                style="@style/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an2b"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/c2_radio_button"
+                style="@style/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an2c"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/d2_radio_button"
+                style="@style/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an2d"
+                app:buttonTint="@color/basic" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/move_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/s_margin"
+            android:layout_marginTop="@dimen/m_margin"
+            android:background="@drawable/button_shape"
+            android:onClick="move"
+            android:text="@string/nx" />
+
+    </LinearLayout>
+
+</ScrollView>

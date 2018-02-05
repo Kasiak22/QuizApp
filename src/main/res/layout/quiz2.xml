@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:orientation="vertical"
+        tools:context=".Quiz2Activity">
+
+        <ImageView
+            android:id="@+id/lung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cancer_bb" />
+
+        <TextView
+            style="@style/quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q3" />
+
+        <LinearLayout
+            android:id="@+id/quest3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/a3_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/s_margin"
+                android:text="@string/an3a"
+                android:textAppearance="?android:textAppearanceMedium"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/b3_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/s_margin"
+                android:text="@string/an3b"
+                android:textAppearance="?android:textAppearanceMedium"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/c3_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/s_margin"
+                android:text="@string/an3c"
+                android:textAppearance="?android:textAppearanceMedium"
+                app:buttonTint="@color/basic" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/d3_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/s_margin"
+                android:text="@string/an3d"
+                android:textAppearance="?android:textAppearanceMedium"
+                app:buttonTint="@color/basic" />
+        </LinearLayout>
+
+        <TextView
+
+            style="@style/quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/a4_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s_margin"
+            android:text="@string/an4a"
+            android:textAppearance="?android:textAppearanceMedium"
+            app:buttonTint="@color/basic" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/b4_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s_margin"
+            android:text="@string/an4b"
+            android:textAppearance="?android:textAppearanceMedium"
+            app:buttonTint="@color/basic" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/c4_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s_margin"
+            android:text="@string/an4c"
+            android:textAppearance="?android:textAppearanceMedium"
+            app:buttonTint="@color/basic" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/d4_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s_margin"
+            android:text="@string/an4d"
+            android:textAppearance="?android:textAppearanceMedium"
+            app:buttonTint="@color/basic" />
+
+        <TextView
+            style="@style/quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q5" />
+
+        <EditText
+            android:id="@+id/ed_answer"
+            android:layout_marginLeft="@dimen/s_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/move_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/s_margin"
+            android:layout_marginTop="@dimen/m_margin"
+            android:background="@drawable/button_shape"
+            android:onClick="toast"
+            android:text="@string/sub" />
+
+    </LinearLayout>
+</ScrollView>

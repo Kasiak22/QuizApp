@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/xl_margin"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/title1"
+        android:textAllCaps="true"
+        android:textColor="@color/basic"
+        android:textSize="@dimen/tx_lrg" />
+
+    <ImageView
+        android:id="@+id/lung"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+        android:src="@drawable/div" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/title_q"
+        android:textColor="@color/basic"
+        android:textSize="@dimen/tx_med"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/xl_margin"
+        android:layout_marginTop="@dimen/l_margin"
+        android:background="@drawable/button_shape"
+        android:onClick="start"
+        android:text="@string/let" />
+
+
+</LinearLayout>
