@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="q4">4.Które metody obrazowe służą do wykrywania raka?</string>
+    <string name="q5">5.Który typ raka jest najczęstszy u kobiet?</string>
+    <string name="an1d">Alkohol</string>
+    <string name="ans">Odpowiedz na wszystkie pytania!</string>
+    <string name="an4a">Kolonoskopia</string>
+    <string name="an4c">Tomografia komputerowa</string>
+    <string name="an4d">Elektrokardiografia EKG</string>
+    <string name="title_q">Sprawdź ile wiesz na ten temat!</string>
+    <string name="an2d">Rak płuc</string>
+    <string name="an4b">Mammografia</string>
+    <string name="an2c">Czerniak</string>
+    <string name="an1c">Otyłość</string>
+    <string name="an2a">Rak trzustki</string>
+    <string name="an2b">Rak prostaty</string>
+    <string name="an1b">Palenie</string>
+    <string name="an1a">Stres</string>
+    <string name="q1">1.Jaka jest najczęstsza przyczyna raka?</string>
+    <string name="q2">2. Czynnik PSA pozwala wykryć który nowotwór?</string>
+    <string name="q3">3. Które z wirusów mogą powodować raka</string>
+    <string name="an3c">Wirus zapalenia wątroby typu C</string>
+    <string name="an3d">Wirus ospy wietrznej</string>
+    <string name="an3b">Wirus grypy typu A</string>
+    <string name="an3a">Wirus brodawczaka ludzkiego HPV</string>
+    <string name="nx">Następny</string>
+    <string name="sub">Wyślij</string>
+    <string name="let">Zaczynajmy!</string>
+    <string name="sh">Podziel się</string>
+    <string name="trya">Jeszcze raz</string>
+    <string name="learn">Dowiedz się więcej</string>
+    <string name="ans_ed">Rak piersi</string>
+    <string name="hint">Odpowiedź</string>
+    <string name="title1" translatable="false">Quiz o nowotworach</string>
+    <string name="mes_p1">Wynik:</string>
+    <string name="mes_p2a">" Wynik: %d Za mało! Popraw się!"</string>
+    <string name="mes_p2b">" Wynik: %d Mało brakowało!"</string>
+    <string name="mes_p2c">" Wynik: %d Doskonale!"</string>
+    <string name="mail_title">Mój wynik</string>
+    <string name="mail">Mój wynik to: %d w super quizie o nowotworach.</string>
+    <string name="ans2">Odpowiedź 2. Rak prostaty. PSA jest białkiem produkowanym przez komórki prostaty i komórki nowotworowe.</string>
+    <string name="ans1">Odpowiedź 1. Palenie. Szacuje się, że palenie tytoniu odpowiada za blisko 30% wszystkich zgonów spowodowanych nowotworami.</string>
+    <string name="ans3">Odpowiedź 3. Wirus brodawczaka ludzkiego HPV, wirus zapalenia wątroby typu C. HPV jest odpowiedzialny za rozwój raka szyjki macicy.Rak wątrobowokomórkowy (HCC) jest piątym najczęściej występującym nowotworem, który jest główną przyczyną śmierci pacjentów z przewlekłym zakażeniem wirusem zapalenia wątroby typu C.</string>
+    <string name="ans4">Odpowiedź 4. Kolonoskopia, mammografia, CT. Kolonoskopia - rak jelita grubego, mammografia - rak piersi. CT pozwala diagnozować różne typy raka.</string>
+    <string name="ans5">Odpowiedź 5. Rak piersi. Rak piersi jest częstym rakiem u kobiet, ale badania przesiewowe i terapia sprawiają, że w wielu przypadkach można go leczyć</string>
+    <string name="ans_b">"Powrót "</string>
+    <string name="bu_s">Odpowiedzi</string>
+</resources>
